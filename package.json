@@ -4,6 +4,9 @@
   "main": "index.js",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "build": "lerna run --stream --sort build"
+  }, 
   "workspaces": [
     "packages/*"
   ], 

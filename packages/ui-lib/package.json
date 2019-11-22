@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-   "publishConfig": {
+  "publishConfig": {
     "access": "publish"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
