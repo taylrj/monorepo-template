@@ -1,6 +1,6 @@
 {
   "name": "ui-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "ui-lib": "^1.0.0"
+    "ui-lib": "^1.0.1"
   }
 }
