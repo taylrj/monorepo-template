@@ -5,7 +5,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "lerna run --stream --sort build"
+    "build": "lerna run --stream --sort build",
+    "version": "lerna version --conventional-commits"
   },
   "workspaces": [
     "packages/*"
