@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "lerna run --stream --sort build",
-    "version": "lerna version --conventional-commits --yes"
+    "version": "lerna version --conventional-commits --yes",
+    "publish": "npm run build && lerna publish from-git"
   },
   "workspaces": [
     "packages/*"
